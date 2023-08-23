@@ -1,12 +1,6 @@
 import PropTypes from "prop-types"
-function Card({children, reverse}) {
-//   return (
-//condtional class
-//     <div className={`card ${reverse && 'reverse'}`}> 
-//       {children}
-//     </div>
 
-// conditonal style
+function Card({children, reverse}) {
     return (
         <div className="card"
             style = {{
